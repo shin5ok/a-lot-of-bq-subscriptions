@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: $TOPIC_ID
+  labels:
+    app: $TOPIC_ID
+spec:
+  restartPolicy: Never
+  serviceAccount: pubsub-app
+  containers:
+  - image: gcr.io/$PROJECT/pubsub-app:${TAG}
+    name: $TOPIC_ID
+    env:
+    - name: GOOGLE_CLOUD_PROJECT
+      value: $GOOGLE_CLOUD_PROJECT
+    - name: TOPIC_ID
+      value: $TOPIC_ID
+    - name: APP_ID
+      value: $TOPIC_ID
+    - name: EXTRASTR
+      value: ""

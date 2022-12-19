@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "timestamp",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "tag",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "extrabool",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "extrafloat",
+    "type": "FLOAT"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "type" : "record",
+  "name" : "Avro",
+  "fields" : [
+    {
+      "name" : "name",
+      "type" : "string"
+    },
+    {
+      "name" : "extrafloat",
+      "type" : "float"
+    },
+    {
+      "name" : "id",
+      "type" : "string"
+    },
+    {
+      "name" : "extrabool",
+      "type" : "boolean"
+    },
+    {
+      "name" : "timestamp",
+      "type" : "timestamp"
+    }
+  ]
+ }
